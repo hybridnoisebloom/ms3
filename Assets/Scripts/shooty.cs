@@ -14,6 +14,7 @@ using UnityEngine;
 public class shooty : MonoBehaviour {
 
 	public GameObject origbullet;
+	public GameObject player;
 
 	// Use this for initialization
 	void Start () {
@@ -33,5 +34,6 @@ public class shooty : MonoBehaviour {
 		pew.Play ();
 		Rigidbody projectile = tempbullet.GetComponent<Rigidbody>();
 		projectile.velocity = Camera.main.transform.forward * 20f;
+		tempbullet.GetComponent<BulletAttrs> ().shooter = player.GetComponent<PlayerAttrs> ().team_number;
 	}
 }

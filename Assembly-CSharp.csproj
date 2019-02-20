@@ -57,7 +57,9 @@
      <Compile Include="Assets\ProCore\ProBuilder\API Examples\Procedural Mesh\ExtrudeRandomEdges.cs" />
      <Compile Include="Assets\ProCore\ProBuilder\API Examples\Runtime Editing\RuntimeEdit.cs" />
      <Compile Include="Assets\ProCore\ProBuilder\API Examples\Vertex Colors\HighlightNearestFace.cs" />
+     <Compile Include="Assets\Scripts\BulletAttrs.cs" />
      <Compile Include="Assets\Scripts\bulletcollision.cs" />
+     <Compile Include="Assets\Scripts\PlayerAttrs.cs" />
      <Compile Include="Assets\Scripts\quake3-movement-unity3d-master\quake3-movement-unity3d-master\CPMPlayer.cs" />
      <Compile Include="Assets\Scripts\shooty.cs" />
      <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
@@ -160,9 +162,6 @@
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
- <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
  </Reference>
  <Reference Include="ProBuilderCore-Unity5">
  <HintPath>D:/Draven/Documents/Monkey Sniper 3/Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>

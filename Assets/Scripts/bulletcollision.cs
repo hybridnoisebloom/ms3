@@ -20,5 +20,14 @@ public class bulletcollision : MonoBehaviour {
 		Debug.Log("Collision.");
 		Rigidbody body = GetComponent<Rigidbody>();
 		body.velocity = Vector3.zero;
+
+		// collision between bullet and player
+		if (GetComponent<BulletAttrs>().shooter != collision.gameObject.GetComponent<PlayerAttrs>().team_number && !GetComponent<BulletAttrs>().done){
+			// take health down and destroy the bullet
+			collision.gameObject.GetComponent<PlayerAttrs>().health_remaining -= 10;
+			collision.gameObject.GetComponent<AudioSource> ().Play (); // OOF
+		}
+
+		GetComponent<BulletAttrs> ().done = true;
 	}
 }
