@@ -19,3 +19,5 @@ public class BulletAttrs : MonoBehaviour {
 	void Start () {}
 	void Update () {}
 }
+
+// Bingus bungus
