@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 23476445100655046}
   - component: {fileID: 54429736454188708}
   - component: {fileID: 114992646398073012}
-  - component: {fileID: 5478470477094331800}
+  - component: {fileID: 7849276041426434526}
   m_Layer: 0
   m_Name: bullet1
   m_TagString: Projectile
@@ -125,7 +125,7 @@ MonoBehaviour:
   shooter: -1
   weapon: 0
   done: 0
---- !u!114 &5478470477094331800
+--- !u!114 &7849276041426434526
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
