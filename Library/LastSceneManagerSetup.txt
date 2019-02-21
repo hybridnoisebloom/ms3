@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/Monkey Sniper 3.unity
-  isLoaded: 1
-  isActive: 1
